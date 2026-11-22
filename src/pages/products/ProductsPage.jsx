@@ -91,7 +91,7 @@ export default function ProductsPage() {
         {/* Layout: Sidebar + Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
           {/* Filter Sidebar */}
-          <div className="lg:col-span-1">
+          <div className="lg:col-span-1 lg:sticky lg:top-28">
             <ProductFilter
               selectedCategory={selectedCategory}
               onSelectCategory={handleSelectCategory}
